@@ -1,0 +1,15 @@
+./project -n -k 2 test4.txt
+./project -n test2.txt
+./project test1.txt -d
+./project test2.txt
+./project test5.txt -u
+./project test5.txt -u -b
+./project test3.txt -r -u -b
+./project test4.txt -r -n -b -u
+./project test5.txt -r -n -b -u
+./project test4.txt -n -k 2 -r
+./project test4.txt -n -r
+./project test2.txt -r
+./project test1.txt -k 67
+./project test3.txt -d
+
